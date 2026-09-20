@@ -1,0 +1,33 @@
+{
+  "name": "Linear Kalman + constant forcing",
+  "test_tracks": 100,
+  "seed_range": "90000..90099",
+  "dataset": "Independent synthetic tracks with noisy observations and stochastic future acceleration",
+  "horizons": [
+    {
+      "horizon_h": 6,
+      "ade_km": 0.401,
+      "fde_km": 0.47,
+      "stationary_fde_km": 2.829
+    },
+    {
+      "horizon_h": 12,
+      "ade_km": 0.501,
+      "fde_km": 0.707,
+      "stationary_fde_km": 5.654
+    },
+    {
+      "horizon_h": 24,
+      "ade_km": 0.772,
+      "fde_km": 1.352,
+      "stationary_fde_km": 11.323
+    },
+    {
+      "horizon_h": 48,
+      "ade_km": 1.521,
+      "fde_km": 3.213,
+      "stationary_fde_km": 22.715
+    }
+  ],
+  "limitation": "No satellite-identified iceberg tracks used; real-world skill unknown."
+}

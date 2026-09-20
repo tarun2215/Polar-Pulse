@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "name": "Mission opens with four computed route cards",
+      "status": "PASS"
+    },
+    {
+      "name": "Desktop has no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Forecast slider changes the rendered map",
+      "status": "PASS"
+    },
+    {
+      "name": "Forecast hour label updates",
+      "status": "PASS"
+    },
+    {
+      "name": "Risk layer selectable",
+      "status": "PASS"
+    },
+    {
+      "name": "Ice-change layer selectable",
+      "status": "PASS"
+    },
+    {
+      "name": "Map zoom modifies transform",
+      "status": "PASS"
+    },
+    {
+      "name": "Route selection updates active corridor",
+      "status": "PASS"
+    },
+    {
+      "name": "Map cell inspector returns backend contributions",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: ice",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: icebergs",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: routes",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: voyage",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: decision",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: data",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: performance",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: architecture",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation page: mission",
+      "status": "PASS"
+    },
+    {
+      "name": "Safety slider recomputes scenario",
+      "status": "PASS"
+    },
+    {
+      "name": "What-if wind recomputes without closing control",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic hazard computes a reroute",
+      "status": "PASS"
+    },
+    {
+      "name": "Hazard focus zooms into the crossing",
+      "status": "PASS"
+    },
+    {
+      "name": "Explanation contains calculated before-after deltas",
+      "status": "PASS"
+    },
+    {
+      "name": "Copilot uses the current scenario values",
+      "status": "PASS"
+    },
+    {
+      "name": "CSV observations validated and imported as overlay",
+      "status": "PASS"
+    },
+    {
+      "name": "Imported points visible on mission map",
+      "status": "PASS"
+    },
+    {
+      "name": "Mission JSON export contains actual scenario and methodology",
+      "status": "PASS"
+    },
+    {
+      "name": "Printable briefing opens with safety limitations",
+      "status": "PASS"
+    },
+    {
+      "name": "Metrics UI displays holdout limitation",
+      "status": "PASS"
+    },
+    {
+      "name": "Voyage clock advances during playback",
+      "status": "PASS"
+    },
+    {
+      "name": "Voyage clock resets",
+      "status": "PASS"
+    },
+    {
+      "name": "Nine-stage judge demo completes with computed outcomes",
+      "status": "PASS"
+    },
+    {
+      "name": "Second mission selection recomputes routes",
+      "status": "PASS"
+    },
+    {
+      "name": "tablet has no horizontal page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "tablet map remains visible",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile has no horizontal page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile map remains visible",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser script or console errors",
+      "status": "PASS"
+    }
+  ],
+  "check_count": 38,
+  "errors": [],
+  "elapsed_seconds": 25.07,
+  "transport": "Same compiled ES modules in Chromium using test-only offline bridge into actual FastAPI TestClient. Managed browser denies loopback navigation; direct local HTTP is tested separately.",
+  "native_windows_tested": false
+}

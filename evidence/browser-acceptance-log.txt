@@ -1,0 +1,39 @@
+PASS Mission opens with four computed route cards
+PASS Desktop has no horizontal overflow
+PASS Forecast slider changes the rendered map
+PASS Forecast hour label updates
+PASS Risk layer selectable
+PASS Ice-change layer selectable
+PASS Map zoom modifies transform
+PASS Route selection updates active corridor
+PASS Map cell inspector returns backend contributions
+PASS Navigation page: ice
+PASS Navigation page: icebergs
+PASS Navigation page: routes
+PASS Navigation page: voyage
+PASS Navigation page: decision
+PASS Navigation page: data
+PASS Navigation page: performance
+PASS Navigation page: architecture
+PASS Navigation page: mission
+PASS Safety slider recomputes scenario
+PASS What-if wind recomputes without closing control
+PASS Synthetic hazard computes a reroute
+PASS Hazard focus zooms into the crossing
+PASS Explanation contains calculated before-after deltas
+PASS Copilot uses the current scenario values
+PASS CSV observations validated and imported as overlay
+PASS Imported points visible on mission map
+PASS Mission JSON export contains actual scenario and methodology
+PASS Printable briefing opens with safety limitations
+PASS Metrics UI displays holdout limitation
+PASS Voyage clock advances during playback
+PASS Voyage clock resets
+PASS Nine-stage judge demo completes with computed outcomes
+PASS Second mission selection recomputes routes
+PASS tablet has no horizontal page overflow
+PASS tablet map remains visible
+PASS mobile has no horizontal page overflow
+PASS mobile map remains visible
+PASS No browser script or console errors
+TOTAL 38 PASS

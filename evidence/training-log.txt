@@ -1,0 +1,74 @@
+{
+  "data_type": "Synthetic independent scenes; not Antarctic validation",
+  "seed": 26059,
+  "train_scenes": 60,
+  "calibration_scenes": 15,
+  "test_scenes": 15,
+  "train_samples": 21000,
+  "calibration_samples": 5250,
+  "test_samples": 5250,
+  "split": "Held-out scenes; no cell from a test scene enters training or calibration.",
+  "model": "Random forest delta forecaster",
+  "horizons": [
+    {
+      "horizon_h": 6,
+      "mae_pp": 0.694,
+      "rmse_pp": 0.862,
+      "r2": 0.9987,
+      "persistence_mae_pp": 1.172,
+      "interval_half_width_pp": 1.353,
+      "test_coverage": 0.8867,
+      "test_samples": 1050
+    },
+    {
+      "horizon_h": 12,
+      "mae_pp": 1.049,
+      "rmse_pp": 1.296,
+      "r2": 0.9971,
+      "persistence_mae_pp": 2.163,
+      "interval_half_width_pp": 2.011,
+      "test_coverage": 0.8743,
+      "test_samples": 1050
+    },
+    {
+      "horizon_h": 24,
+      "mae_pp": 1.834,
+      "rmse_pp": 2.26,
+      "r2": 0.9914,
+      "persistence_mae_pp": 3.882,
+      "interval_half_width_pp": 3.542,
+      "test_coverage": 0.8886,
+      "test_samples": 1050
+    },
+    {
+      "horizon_h": 48,
+      "mae_pp": 3.46,
+      "rmse_pp": 4.27,
+      "r2": 0.9712,
+      "persistence_mae_pp": 6.81,
+      "interval_half_width_pp": 6.101,
+      "test_coverage": 0.84,
+      "test_samples": 1050
+    },
+    {
+      "horizon_h": 72,
+      "mae_pp": 4.999,
+      "rmse_pp": 6.174,
+      "r2": 0.9435,
+      "persistence_mae_pp": 9.067,
+      "interval_half_width_pp": 8.635,
+      "test_coverage": 0.8286,
+      "test_samples": 1050
+    }
+  ],
+  "feature_importance": {
+    "concentration_now": 0.01086,
+    "trend_per_hour": 0.45215,
+    "air_temperature_c": 0.06174,
+    "sst_c": 0.2175,
+    "wind_north_m_s": 0.04707,
+    "current_north_m_s": 0.00749,
+    "horizon_hours": 0.20319
+  },
+  "interval_note": "90% split-conformal nominal intervals calibrated on synthetic scenes only. Correlated cells violate iid assumptions; empirical scene-held-out coverage is reported, not a real-world guarantee."
+}

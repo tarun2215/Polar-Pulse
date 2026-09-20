@@ -1,0 +1,64 @@
+{
+  "result": "PASS",
+  "transport": "Actual HTTP over loopback into uvicorn, not TestClient",
+  "startup_seconds": 1.817,
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "bytes": 742
+    },
+    {
+      "method": "GET",
+      "path": "/assets/app.js",
+      "status": 200,
+      "bytes": 67854
+    },
+    {
+      "method": "GET",
+      "path": "/assets/styles.css",
+      "status": 200,
+      "bytes": 47452
+    },
+    {
+      "method": "GET",
+      "path": "/favicon.svg",
+      "status": 200,
+      "bytes": 375
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200,
+      "bytes": 100
+    },
+    {
+      "method": "GET",
+      "path": "/api/bootstrap",
+      "status": 200,
+      "bytes": 494319
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 200,
+      "bytes": 10153
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 200,
+      "bytes": 21184
+    },
+    {
+      "method": "POST",
+      "path": "/api/scenario/simulate",
+      "status": 200,
+      "bytes": 423080
+    }
+  ],
+  "python": "3.13.5",
+  "platform": "linux",
+  "note": "This execution environment is Linux. Windows launcher and normal Windows browser require a local user check."
+}

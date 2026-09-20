@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "archive_extract": "New temporary directory with spaces in its name",
+  "runtime": "Python start.py on extracted copy; actual HTTP smoke",
+  "checks": 9,
+  "status_codes": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "bundled_frontend": "served from extracted frontend/dist",
+  "model_and_geography": "loaded from extracted models and data/geography",
+  "platform": "Linux; native Windows not tested",
+  "note": "Packaging rerun after this evidence was saved; application source/assets unchanged by that final step."
+}

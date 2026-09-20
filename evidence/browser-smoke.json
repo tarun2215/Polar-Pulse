@@ -1,0 +1,6 @@
+{
+  "errors": [],
+  "desktop": "1600x1100",
+  "browser_transport": "Test-only offline bridge to actual FastAPI endpoints; managed Chromium blocks loopback navigation",
+  "result": "pass"
+}
